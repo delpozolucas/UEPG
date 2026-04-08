@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FatorialSwing_browser.jnlp">
+  <information>
+    <title>FatorialSwing</title>
+    <vendor>profi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FatorialSwing.jar" size="26225" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="TelaFatorial"  name="FatorialSwing" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
